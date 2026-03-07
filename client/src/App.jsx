@@ -31,6 +31,7 @@ import {
   navLinks,
   skills,
 } from './data/portfolioData';
+import { projectsData } from './data/projectsData';
 import { useTypewriter } from './hooks/useTypewriter';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5050';
@@ -121,7 +122,7 @@ function App() {
       const data = await response.json();
       setProjects(data.projects || []);
     } catch {
-      setProjects([]);
+      setProjects(projectsData);
     }
   };
 
