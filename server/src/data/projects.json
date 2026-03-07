@@ -59,5 +59,20 @@
     "impact": "Accelerates resume creation with consistent formatting for ATS scans.",
     "github": "https://github.com/rohanshelar991/ai-resume-builder",
     "demo": "https://courageous-piroshki-cacbe2.netlify.app/"
+  },
+  {
+    "id": "p6",
+    "title": "Portfolio Website",
+    "image": "/images/project2.jpg",
+    "techStack": [
+      "React",
+      "Tailwind",
+      "Node.js"
+    ],
+    "problem": "Needed a premium portfolio to showcase projects, skills, and contact details in one place.",
+    "solution": "Built a recruiter-ready portfolio with dynamic sections, animations, and a live contact backend.",
+    "impact": "Creates a single high-converting place for recruiters to evaluate work and reach out.",
+    "github": "https://github.com/rohanshelar991/portfolio",
+    "demo": "https://github.com/rohanshelar991/portfolio"
   }
 ]
