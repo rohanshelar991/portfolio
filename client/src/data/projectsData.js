@@ -19,7 +19,8 @@ export const projectsData = [
     solution: 'Built a GST billing system with invoice generation and tax-compliant totals.',
     impact: 'Improved billing speed and GST compliance for daily operations.',
     github: 'https://github.com/rohanshelar991/gst-billing',
-    demo: 'https://github.com/rohanshelar991/gst-billing',
+    demo: 'https://drive.google.com/drive/folders/1gc0LOl9m9GDus5ojK65Thjlra87r5Btw',
+    demoLabel: 'Download APK',
   },
   {
     id: 'p4',

@@ -437,7 +437,9 @@ function App() {
                   <div className="mt-5 flex flex-wrap gap-3">
                     <a className="inline-flex items-center gap-2 rounded-lg bg-brand-500 px-4 py-2 text-sm text-white" href={project.github} target="_blank" rel="noreferrer">GitHub <Github size={15} /></a>
                     {project.demo && (
-                      <a className="inline-flex items-center gap-2 rounded-lg border border-slate-300/40 px-4 py-2 text-sm dark:border-slate-700" href={project.demo} target="_blank" rel="noreferrer">Live Demo <ExternalLink size={15} /></a>
+                      <a className="inline-flex items-center gap-2 rounded-lg border border-slate-300/40 px-4 py-2 text-sm dark:border-slate-700" href={project.demo} target="_blank" rel="noreferrer">
+                        {project.demoLabel || 'Live Demo'} <ExternalLink size={15} />
+                      </a>
                     )}
                   </div>
                 </div>
