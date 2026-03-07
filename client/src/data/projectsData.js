@@ -52,6 +52,6 @@ export const projectsData = [
     solution: 'Built a recruiter-ready portfolio with dynamic sections, animations, and a live contact backend.',
     impact: 'Creates a single high-converting place for recruiters to evaluate work and reach out.',
     github: 'https://github.com/rohanshelar991/portfolio',
-    demo: 'https://github.com/rohanshelar991/portfolio',
+    demo: '',
   },
 ];
