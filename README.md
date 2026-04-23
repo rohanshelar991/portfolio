@@ -1,94 +1,83 @@
-# Legendary Portfolio (React + Tailwind + Node)
+# Rohan Shelar Portfolio
 
-A premium, recruiter-focused portfolio rebuilt with a modern architecture:
-- Frontend: React + Vite + Tailwind + Framer Motion
-- Backend: Node.js + Express + Nodemailer
-- Dynamic projects: admin token protected API
-- Contact form: sends messages to `rmshelar11@gmail.com`
+Personal portfolio website built with Next.js, React, and modern motion/3D libraries.
 
-## Folder Structure
+## Overview
 
-```text
-.
-├── client
-│   ├── public/images
-│   └── src
-│       ├── data
-│       ├── hooks
-│       └── styles
-├── server
-│   └── src
-│       ├── config
-│       ├── controllers
-│       ├── data
-│       ├── middleware
-│       ├── routes
-│       └── utils
-└── package.json
-```
+This project showcases:
 
-## Local Setup
+- About, skills, and experience sections
+- Project highlights
+- Contact form with email delivery via Resend
+- Smooth scrolling, animated transitions, and 3D visuals
+- SEO-friendly metadata and social preview support
 
-1. Install dependencies:
+## Tech Stack
+
+- Next.js 16
+- React 19
+- Tailwind CSS + SCSS
+- Three.js, React Three Fiber, Drei
+- GSAP + Framer Motion
+- Zustand
+- Resend + React Email
+
+## Project Structure
+
+- `app/` - App Router pages and API routes
+- `components/` - Reusable UI and section components
+- `assets/` - SCSS styles
+- `public/` - Static assets
+- `lib/` - Utilities like analytics and smooth scroll helpers
+- `stores/` - Client state stores
+
+## Getting Started
+
+### 1. Install dependencies
+
 ```bash
 npm install
-npm --prefix client install
-npm --prefix server install
 ```
 
-2. Configure backend environment:
+### 2. Create environment file
+
+Create `.env.local` in the project root:
+
 ```bash
-cp server/.env.example server/.env
+RESEND_API_KEY=your_resend_api_key
+RESEND_FROM="Portfolio <onboarding@resend.dev>"
+CONTACT_EMAIL=your_email@example.com
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+NEXT_PUBLIC_GOOGLE_ANALYTICS=
 ```
 
-3. Update `server/.env`:
-- `MAIL_TO=rmshelar11@gmail.com`
-- `MAIL_USER` and `MAIL_PASS` must be valid SMTP credentials.
-- If using Gmail, generate an App Password and use that as `MAIL_PASS`.
-- Set a strong `ADMIN_TOKEN`.
+### 3. Run development server
 
-4. Start full stack:
 ```bash
 npm run dev
 ```
 
-Frontend: `http://localhost:5173`
-Backend: `http://localhost:5050`
+Open `http://localhost:3000`.
 
-## Contact Form Email Flow
+## Available Scripts
 
-When someone submits the form:
-- Frontend POSTs to `/api/contact`
-- Backend validates fields with Zod
-- Nodemailer sends email to `MAIL_TO` (`rmshelar11@gmail.com`)
-- Success/failure status is shown in UI
+- `npm run dev` - Run in development mode
+- `npm run build` - Build for production
+- `npm run start` - Start the production build
+- `npm run lint` - Run lint checks
 
-## Admin Project Updates
+## Contact API
 
-Use the `Admin Dashboard` section in the portfolio:
-- Enter `ADMIN_TOKEN`
-- Add project details
-- Project is saved to `server/src/data/projects.json`
-- Projects immediately appear in the Projects section
+The contact form submits to `POST /api/email`.
 
-## Deploy (Vercel + Backend)
+For successful email delivery, `RESEND_API_KEY` must be configured.
 
-Recommended production setup:
-1. Deploy `client` to Vercel.
-2. Deploy `server` to Railway/Render/Fly (or any Node host).
-3. Set `VITE_API_URL` in Vercel to your deployed backend URL.
-4. Set backend env vars from `server/.env.example`.
+## Deployment
 
-## Performance & Quality Notes
+Recommended: Vercel.
 
-- Responsive layout with accessibility-focused semantic sections.
-- Lazy-loaded project/profile images.
-- Scroll progress indicator, theme toggle, smooth animations.
-- Security middleware: `helmet`, CORS control, API rate limiter.
-- Input validation on contact and project APIs.
+Set all environment variables from `.env.local` in your hosting provider before deploying.
 
-## Next Up (Optional)
+## License
 
-- Replace placeholder social/demo/GitHub links with your real links.
-- Add `/client/public/resume.pdf` for live download/preview.
-- Add persistent DB (MongoDB) for production-grade admin CMS.
+This project is for personal portfolio use.
