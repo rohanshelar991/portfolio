@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#F8F5ED"/><stop offset="1" stop-color="#EAE5DA"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E7C77F"/><stop offset="1" stop-color="#B98235"/></linearGradient>
+    <filter id="shadow" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB" filterUnits="objectBoundingBox"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="700" rx="36" fill="url(#bg)"/>
+  <circle cx="970" cy="50" r="220" fill="#D9C49A" fill-opacity=".18"/>
+  <circle cx="150" cy="650" r="210" fill="#9AA6B2" fill-opacity=".13"/>
+  <rect x="112" y="110" width="976" height="480" rx="30" fill="#25303A" fill-opacity=".12" filter="url(#shadow)"/>
+  <rect x="94" y="86" width="1012" height="516" rx="28" fill="#FBFAF6" stroke="#D5D0C5" stroke-width="3"/>
+  <path d="M94 114a28 28 0 0 1 28-28h956a28 28 0 0 1 28 28v54H94v-54Z" fill="#202832"/>
+  <circle cx="132" cy="126" r="8" fill="#D89A56"/><circle cx="160" cy="126" r="8" fill="#E5C77D"/><circle cx="188" cy="126" r="8" fill="#7C9A8A"/>
+  <text x="235" y="135" fill="#F7F2E7" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">COLLABATHON</text>
+  <text x="145" y="235" fill="#202832" font-family="Arial,sans-serif" font-size="35" font-weight="700">Build a balanced team</text>
+  <text x="145" y="270" fill="#77786F" font-family="Arial,sans-serif" font-size="18">Match skills. Find your people. Make something great.</text>
+  <rect x="145" y="310" width="910" height="72" rx="16" fill="#F2EEE4" stroke="#DDD5C6" stroke-width="2"/>
+  <circle cx="181" cy="346" r="15" fill="#C99547"/><path d="m176 346 4 4 8-9" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="213" y="354" fill="#46505A" font-family="Arial,sans-serif" font-size="18">Looking for a frontend designer and a data storyteller</text>
+  <rect x="855" y="324" width="174" height="44" rx="12" fill="url(#gold)"/><text x="887" y="352" fill="#202832" font-family="Arial,sans-serif" font-size="15" font-weight="700">FIND MY TEAM</text>
+  <path d="M398 512c50-74 93-90 201-93m0 0c108 3 151 19 201 93m-201-93v93" stroke="#B88741" stroke-width="4" stroke-dasharray="8 10"/>
+  <circle cx="599" cy="420" r="56" fill="#25303A"/><text x="599" y="414" text-anchor="middle" fill="#F7F2E7" font-family="Arial,sans-serif" font-size="14" font-weight="700">TEAM</text><text x="599" y="436" text-anchor="middle" fill="#E4C27A" font-family="Arial,sans-serif" font-size="14">MATCH</text>
+  <circle cx="398" cy="512" r="43" fill="#E8DDD0" stroke="#C99547" stroke-width="4"/><circle cx="398" cy="498" r="12" fill="#AE7554"/><path d="M374 534c4-17 13-25 24-25s20 8 24 25" fill="#AE7554"/><text x="398" y="574" text-anchor="middle" fill="#59616A" font-family="Arial,sans-serif" font-size="13" font-weight="700">DESIGN</text>
+  <circle cx="800" cy="512" r="43" fill="#DDE7E3" stroke="#6A9282" stroke-width="4"/><circle cx="800" cy="498" r="12" fill="#517A6C"/><path d="M776 534c4-17 13-25 24-25s20 8 24 25" fill="#517A6C"/><text x="800" y="574" text-anchor="middle" fill="#59616A" font-family="Arial,sans-serif" font-size="13" font-weight="700">DATA</text>
+  <rect x="879" y="208" width="145" height="40" rx="20" fill="#E7F0E9"/><circle cx="902" cy="228" r="6" fill="#56866B"/><text x="918" y="234" fill="#4A6656" font-family="Arial,sans-serif" font-size="13" font-weight="700">SKILL BALANCED</text>
+</svg>

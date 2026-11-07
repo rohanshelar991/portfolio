@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#18262D"/><stop offset="1" stop-color="#253A3D"/></linearGradient>
+    <linearGradient id="map" x1="290" y1="170" x2="860" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#A8D7C3"/><stop offset="1" stop-color="#55A78F"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F1D18A"/><stop offset="1" stop-color="#C28B45"/></linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="36" fill="url(#bg)"/>
+  <circle cx="1010" cy="60" r="250" fill="#64B39A" fill-opacity=".09"/><circle cx="160" cy="650" r="210" fill="#E2BE72" fill-opacity=".07"/>
+  <rect x="82" y="68" width="1036" height="564" rx="28" fill="#F6F4EC"/>
+  <path d="M110 68h980a28 28 0 0 1 28 28v58H82V96a28 28 0 0 1 28-28Z" fill="#202E34"/>
+  <circle cx="121" cy="111" r="8" fill="#D99A56"/><circle cx="149" cy="111" r="8" fill="#E4C77E"/><circle cx="177" cy="111" r="8" fill="#7FA48E"/>
+  <text x="220" y="118" fill="#F8F4EA" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">AIRSCOPE <tspan fill="#9AD6BC">INTELLIGENCE</tspan></text>
+  <text x="119" y="201" fill="#26353A" font-family="Arial,sans-serif" font-size="29" font-weight="700">Global air quality overview</text>
+  <text x="119" y="229" fill="#808882" font-family="Arial,sans-serif" font-size="14">Live conditions · city risk · country trends</text>
+  <rect x="119" y="260" width="650" height="315" rx="20" fill="#E6EFEA"/>
+  <path d="m207 336 35-32 50-13 31 19 37-1 26 31-20 31 9 35-41 28-27 51-42 7-26-36-30-10-15-39-33-20 11-34-24-17 20-35 39-5Z" fill="url(#map)"/>
+  <path d="m411 334 35-29 58 8 31 28 46-4 37 22-9 35 21 27-27 34-15 44-35 2-29-35-36 1-22-35-41-3-11-37-29-19 13-30-20-9Z" fill="#94CBB2"/>
+  <path d="m591 408 23-19 34 4 18 21-10 24-32 8-25-13-8-25Z" fill="#71B598"/>
+  <path d="m649 338 38-27 42 15 18 32-25 27-9 38-35-6-6-37-30-13 7-29Z" fill="#82C3A7"/>
+  <circle cx="298" cy="373" r="12" fill="#DCA254" stroke="#fff" stroke-width="5"/><circle cx="479" cy="382" r="12" fill="#D87754" stroke="#fff" stroke-width="5"/><circle cx="666" cy="362" r="12" fill="#DCA254" stroke="#fff" stroke-width="5"/>
+  <rect x="245" y="399" width="108" height="36" rx="12" fill="#26353A"/><text x="299" y="423" text-anchor="middle" fill="#F8F4EA" font-family="Arial,sans-serif" font-size="12" font-weight="700">DELHI · 176</text>
+  <rect x="428" y="408" width="109" height="36" rx="12" fill="#26353A"/><text x="482" y="432" text-anchor="middle" fill="#F8F4EA" font-family="Arial,sans-serif" font-size="12" font-weight="700">MUMBAI · 92</text>
+  <rect x="614" y="388" width="108" height="36" rx="12" fill="#26353A"/><text x="668" y="412" text-anchor="middle" fill="#F8F4EA" font-family="Arial,sans-serif" font-size="12" font-weight="700">TOKYO · 54</text>
+  <rect x="788" y="185" width="286" height="390" rx="20" fill="#fff" stroke="#E3E5DC" stroke-width="2"/>
+  <text x="818" y="224" fill="#77817A" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">HIGHEST RISK CITY</text>
+  <text x="818" y="260" fill="#26353A" font-family="Arial,sans-serif" font-size="26" font-weight="700">New Delhi</text>
+  <rect x="818" y="281" width="226" height="84" rx="16" fill="#F8ECDD"/>
+  <text x="840" y="313" fill="#9B6239" font-family="Arial,sans-serif" font-size="12" font-weight="700">AQI</text><text x="840" y="352" fill="#9B6239" font-family="Arial,sans-serif" font-size="35" font-weight="700">176</text>
+  <rect x="956" y="302" width="68" height="24" rx="12" fill="#D87C4F"/><text x="990" y="318" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="10" font-weight="700">UNHEALTHY</text>
+  <text x="818" y="403" fill="#77817A" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">WEATHER</text>
+  <circle cx="848" cy="449" r="20" fill="url(#gold)"/><path d="M848 418v-8m0 78v-8m31-31h8m-78 0h8m53-22 6-6m-56 56 6-6m44 0 6 6m-56-56 6 6" stroke="#C48C44" stroke-width="3" stroke-linecap="round"/>
+  <text x="886" y="454" fill="#26353A" font-family="Arial,sans-serif" font-size="27" font-weight="700">31°</text><text x="956" y="452" fill="#7A837D" font-family="Arial,sans-serif" font-size="13">Hazy · 68%</text>
+  <path d="M818 483h226" stroke="#E4E6DE" stroke-width="2"/>
+  <text x="818" y="519" fill="#77817A" font-family="Arial,sans-serif" font-size="12">Trend this week</text>
+  <path d="m822 552 32-8 31 3 30-20 32 7 31-22 31 2 31-18" stroke="#5EAA8D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M822 555h224" stroke="#E4E6DE" stroke-width="2"/>
+</svg>

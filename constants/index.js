@@ -124,7 +124,7 @@ export const projects = [
     description:
       "Collabathon is an AI-powered, skill-driven platform designed to help students form balanced and effective teams during hackathons. It solves the common problem of finding reliable teammates with complementary skills by using prompt-based AI matching instead of random or manual selection.",
     tags: ["AI Matching", "Hackathons", "Student Teams", "Skill-Based Matching"],
-    image: "/images/project1.jpg",
+    image: "/images/projects/collabathon.svg",
     url: "https://collabthon.vercel.app",
     github: "https://github.com/rohanshelar991/collabthon",
     category: "AI Team Formation",
@@ -136,7 +136,7 @@ export const projects = [
     description:
       "A web-based application that lets users explore and analyze datasets using natural language. It supports CSV, Excel, and JSON uploads or URL imports, using Groq to convert user questions into SQL queries executed through DuckDB. Built with React, Vite, and FastAPI, it handles authentication, dataset storage, and data querying.",
     tags: ["React", "Vite", "FastAPI", "Groq", "DuckDB"],
-    image: "/images/project2.jpg",
+    image: "/images/projects/dataweb-llm.svg",
     url: "https://datawebllm-zvq8.vercel.app/",
     github: "https://github.com/rohanshelar991/datawebllm",
     category: "AI Data Analytics",
@@ -148,7 +148,7 @@ export const projects = [
     description:
       "A Flutter and Firebase billing app for small businesses with invoice generation and GST-aware totals for faster day-to-day operations.",
     tags: ["Flutter", "Firebase", "GST"],
-    image: "/images/project3.jpg",
+    image: "/images/projects/gst-billing.svg",
     url: "https://drive.google.com/drive/folders/1gc0LOl9m9GDus5ojK65Thjlra87r5Btw",
     category: "Mobile Utility",
     year: "2024",
@@ -159,7 +159,7 @@ export const projects = [
     description:
       "A global air quality and weather dashboard that combines city-level AQI and weather data to highlight high-risk locations, track trends, compare countries, and surface alerts. It helps teams review environmental conditions and prioritize where attention may be needed.",
     tags: ["Air Quality", "Weather Data", "Dashboard", "Vercel"],
-    image: "/images/about.jpg",
+    image: "/images/projects/airscope-intelligence.svg",
     url: "https://air-scope-intelligence.vercel.app/",
     github: "https://github.com/rohanshelar991/AirScope_Intelligence",
     category: "Environmental Intelligence",

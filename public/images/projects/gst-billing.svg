@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#F7F2E7"/><stop offset="1" stop-color="#E9E1D2"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E9C97D"/><stop offset="1" stop-color="#B87E34"/></linearGradient>
+    <filter id="shadow" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB" filterUnits="objectBoundingBox"><feGaussianBlur stdDeviation="15"/></filter>
+  </defs>
+  <rect width="1200" height="700" rx="36" fill="url(#bg)"/>
+  <circle cx="1020" cy="60" r="210" fill="#C9AE73" fill-opacity=".16"/><circle cx="110" cy="655" r="190" fill="#526B67" fill-opacity=".1"/>
+  <text x="100" y="130" fill="#29343C" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="4">GST BILLING SYSTEM</text>
+  <text x="100" y="174" fill="#29343C" font-family="Arial,sans-serif" font-size="32" font-weight="700">Simple billing.</text>
+  <text x="100" y="213" fill="#29343C" font-family="Arial,sans-serif" font-size="32" font-weight="700">Clear books.</text>
+  <text x="100" y="246" fill="#777B75" font-family="Arial,sans-serif" font-size="16">Invoices and GST totals, ready for the day.</text>
+  <rect x="102" y="265" width="394" height="283" rx="26" fill="#24313A"/>
+  <text x="136" y="310" fill="#D9E1DD" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">TODAY'S SALES</text>
+  <text x="136" y="377" fill="#FAF7F0" font-family="Arial,sans-serif" font-size="51" font-weight="700">₹ 28,450</text>
+  <rect x="136" y="405" width="325" height="1" fill="#526068"/>
+  <text x="136" y="447" fill="#B6C2BB" font-family="Arial,sans-serif" font-size="14">Invoices created</text><text x="435" y="447" text-anchor="end" fill="#F2D58F" font-family="Arial,sans-serif" font-size="18" font-weight="700">18</text>
+  <text x="136" y="485" fill="#B6C2BB" font-family="Arial,sans-serif" font-size="14">GST collected</text><text x="435" y="485" text-anchor="end" fill="#F2D58F" font-family="Arial,sans-serif" font-size="18" font-weight="700">₹ 3,420</text>
+  <rect x="136" y="509" width="166" height="18" rx="9" fill="#738979"/><rect x="136" y="509" width="121" height="18" rx="9" fill="url(#gold)"/>
+  <rect x="579" y="90" width="474" height="530" rx="30" fill="#313B43" fill-opacity=".18" filter="url(#shadow)"/>
+  <rect x="557" y="70" width="474" height="530" rx="30" fill="#FBFAF6" stroke="#D9D2C6" stroke-width="3"/>
+  <rect x="583" y="96" width="422" height="74" rx="18" fill="#26343C"/>
+  <circle cx="621" cy="133" r="21" fill="url(#gold)"/><text x="621" y="139" text-anchor="middle" fill="#26343C" font-family="Arial,sans-serif" font-size="17" font-weight="700">₹</text>
+  <text x="660" y="128" fill="#F8F4EA" font-family="Arial,sans-serif" font-size="17" font-weight="700">TAX INVOICE</text><text x="660" y="149" fill="#C2C9C4" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">#INV-2026-0184</text>
+  <text x="590" y="211" fill="#87908A" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">BILL TO</text><text x="590" y="238" fill="#303B42" font-family="Arial,sans-serif" font-size="17" font-weight="700">Green Basket Market</text><text x="590" y="260" fill="#79817B" font-family="Arial,sans-serif" font-size="13">Mumbai, Maharashtra</text>
+  <path d="M590 285h408" stroke="#E2DED5" stroke-width="2"/>
+  <text x="590" y="316" fill="#89918B" font-family="Arial,sans-serif" font-size="11" font-weight="700">ITEM</text><text x="866" y="316" fill="#89918B" font-family="Arial,sans-serif" font-size="11" font-weight="700">QTY</text><text x="995" y="316" text-anchor="end" fill="#89918B" font-family="Arial,sans-serif" font-size="11" font-weight="700">AMOUNT</text>
+  <text x="590" y="351" fill="#364149" font-family="Arial,sans-serif" font-size="14">Organic produce</text><text x="883" y="351" fill="#69736D" font-family="Arial,sans-serif" font-size="14">4</text><text x="995" y="351" text-anchor="end" fill="#364149" font-family="Arial,sans-serif" font-size="14">₹ 1,600</text>
+  <text x="590" y="388" fill="#364149" font-family="Arial,sans-serif" font-size="14">Pantry essentials</text><text x="883" y="388" fill="#69736D" font-family="Arial,sans-serif" font-size="14">2</text><text x="995" y="388" text-anchor="end" fill="#364149" font-family="Arial,sans-serif" font-size="14">₹ 850</text>
+  <path d="M590 409h408" stroke="#E2DED5" stroke-width="2"/>
+  <text x="590" y="444" fill="#79817B" font-family="Arial,sans-serif" font-size="13">Subtotal</text><text x="995" y="444" text-anchor="end" fill="#364149" font-family="Arial,sans-serif" font-size="14">₹ 2,450</text>
+  <text x="590" y="474" fill="#79817B" font-family="Arial,sans-serif" font-size="13">GST (18%)</text><text x="995" y="474" text-anchor="end" fill="#364149" font-family="Arial,sans-serif" font-size="14">₹ 441</text>
+  <rect x="582" y="498" width="424" height="72" rx="16" fill="#F2EEE5"/><text x="606" y="530" fill="#6E776F" font-family="Arial,sans-serif" font-size="13" font-weight="700">TOTAL DUE</text><text x="984" y="543" text-anchor="end" fill="#29343C" font-family="Arial,sans-serif" font-size="25" font-weight="700">₹ 2,891</text>
+</svg>
