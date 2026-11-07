@@ -51,18 +51,20 @@ export const experience = [
   {
     title: "Cybersecurity Intern",
     subtitle: "Acmegrade",
-    description:
-      "Worked on penetration testing and vulnerability assessment exercises across Windows XP and Windows 7 practice environments.",
+    description: "Performed hands-on cybersecurity lab exercises, including Windows XP/7 exploitation with Metasploit, payload creation, and technical documentation.",
     date: "Jun 2024 - Aug 2024",
     category: "Internship",
+    details: ["Performed hands-on cybersecurity lab exercises.", "Worked on Windows XP/7 exploitation using Metasploit.", "Created payloads and prepared technical documentation."],
+    technologies: ["Cybersecurity", "Metasploit", "msfvenom"],
   },
   {
-    title: "Backend Development Intern",
-    subtitle: "CodeInfinity Software Solutions",
-    description:
-      "Built dynamic web pages and backend features using PHP while gaining practical exposure to phpMyAdmin and collaborative project work.",
+    title: "Web Development Intern",
+    subtitle: "Codeterna Private Limited (CodeInfinity)",
+    description: "Developed web pages using PHP, implemented backend functionality and data fetching, and gained practical web development experience.",
     date: "Jun 2024 - Jul 2024",
     category: "Internship",
+    details: ["Developed web pages using PHP.", "Implemented backend functionality and data fetching.", "Gained practical experience in web development."],
+    technologies: ["PHP", "MySQL", "Web Development"],
   },
   {
     title: "Industrial Hackathon Winner",
@@ -75,10 +77,11 @@ export const experience = [
   {
     title: "Java Development Intern",
     subtitle: "ShadowFox",
-    description:
-      "Developed console-based Core Java applications with a strong focus on OOP concepts, logic building, and clean problem solving.",
+    description: "Developed Java-based console applications, applied OOP concepts and Core Java fundamentals, and strengthened problem-solving and programming logic.",
     date: "Jun 2025 - Jul 2025",
     category: "Internship",
+    details: ["Developed Java-based console applications.", "Applied OOP concepts and Core Java fundamentals.", "Improved problem-solving and programming logic."],
+    technologies: ["Java", "Core Java", "OOP"],
   },
   {
     title: "Research Publication",
@@ -96,6 +99,23 @@ export const experience = [
     date: "Sep 2025 - Present",
     category: "Education",
   },
+  {
+    title: "Full Stack Developer Intern",
+    subtitle: "Vhiron Technologies",
+    description: "Developed PulsePOS features using PHP and Laravel, worked on backend development and MySQL database management, and handled debugging, testing, and feature implementation.",
+    date: "Apr 2026 - Jul 2026",
+    category: "Internship",
+    details: ["Developed PulsePOS features using PHP and Laravel.", "Worked on backend development and MySQL database management.", "Performed debugging, testing, and feature implementation."],
+    technologies: ["PHP", "Laravel", "MySQL"],
+  },
+  {
+    title: "Technical Team Lead",
+    subtitle: "Data Science Student Association",
+    description: "Led technical initiatives and student learning activities, conducted two technical teaching sessions, and supported mentoring, collaboration, and practical skill development.",
+    category: "Leadership & Community",
+    details: ["Led technical initiatives and student learning activities.", "Conducted two technical teaching sessions.", "Supported peer learning, mentoring, and collaboration.", "Helped students develop practical technical skills."],
+    technologies: ["Technical Leadership", "Mentoring", "Teaching", "Team Collaboration", "Data Science"],
+  },
 ];
 
 export const projects = [
@@ -111,15 +131,16 @@ export const projects = [
     outcome: "Fast city search, polished weather UI, and deployment-ready responsiveness.",
   },
   {
-    name: "Desk Time Activity Tracker",
+    name: "DataWeb LLM",
     description:
-      "A desktop-linked productivity system with event logging, summaries, and activity insights powered by a PHP and MySQL backend.",
-    tags: ["Flutter", "PHP", "MySQL"],
+      "A web-based application that lets users explore and analyze datasets using natural language. It supports CSV, Excel, and JSON uploads or URL imports, using Groq to convert user questions into SQL queries executed through DuckDB. Built with React, Vite, and FastAPI, it handles authentication, dataset storage, and data querying.",
+    tags: ["React", "Vite", "FastAPI", "Groq", "DuckDB"],
     image: "/images/project2.jpg",
-    url: "https://github.com/rohanshelar991",
-    category: "Hackathon Winner",
-    year: "2025",
-    outcome: "Built as a practical tracking system and backed by industrial hackathon recognition.",
+    url: "https://datawebllm-zvq8.vercel.app/",
+    github: "https://github.com/rohanshelar991/datawebllm",
+    category: "AI Data Analytics",
+    year: "2026",
+    outcome: "Turns natural language questions into SQL for interactive dataset exploration.",
   },
   {
     name: "GST Billing System",
@@ -133,15 +154,16 @@ export const projects = [
     outcome: "Focused on everyday business speed with invoice workflows and tax-aware totals.",
   },
   {
-    name: "AI Resume Builder",
+    name: "AirScope Intelligence",
     description:
-      "An AI-assisted resume builder that helps job seekers create ATS-ready resumes with structured sections and export-ready layouts.",
-    tags: ["React", "AI", "Firebase", "Netlify"],
+      "A global air quality and weather dashboard that combines city-level AQI and weather data to highlight high-risk locations, track trends, compare countries, and surface alerts. It helps teams review environmental conditions and prioritize where attention may be needed.",
+    tags: ["Air Quality", "Weather Data", "Dashboard", "Vercel"],
     image: "/images/about.jpg",
-    url: "https://courageous-piroshki-cacbe2.netlify.app/",
-    category: "AI Experience",
-    year: "2025",
-    outcome: "Turned resume generation into a cleaner guided workflow for job-seeking users.",
+    url: "https://air-scope-intelligence.vercel.app/",
+    github: "https://github.com/rohanshelar991/AirScope_Intelligence",
+    category: "Environmental Intelligence",
+    year: "2026",
+    outcome: "Helps teams spot high-risk locations and prioritize environmental attention.",
   },
 ];
 

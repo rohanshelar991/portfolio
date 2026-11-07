@@ -122,16 +122,16 @@ export default function MaskedAbout() {
                 <span>About Rohan</span>
               </div>
               <p ref={paragraph1} className="about_story_text w-full text-lg md:text-xl lg:text-2xl font-roboto">
-                I&quot;m a <span className="font-orisis">second-year</span> Computer Science and Engineering <span className="font-orisis">(Data Science)</span> student at <span className="font-orisis">A. P. Shah Institute of Technology</span>, focused on building modern web and app experiences.
+                I&quot;m a <span className="font-orisis">third-year</span> Computer Science and Engineering <span className="font-orisis">(Data Science)</span> student at <span className="font-orisis">A. P. Shah Institute of Technology</span>, building practical web and software products.
               </p>
               <p ref={paragraph2} className="about_story_text w-full text-lg md:text-xl lg:text-2xl font-roboto">
-                I&quot;m passionate about <span className="font-orisis">building meaningful</span> digital products, <span className="font-orisis">solving real-world problems</span>, and learning through practical projects across frontend, backend, mobile, and AI-assisted systems.
+                My experience includes full stack development with <span className="font-orisis">PHP, Laravel, and MySQL</span>, along with Java application development and hands-on cybersecurity work. I enjoy taking features from implementation through debugging and testing.
               </p>
               <p ref={paragraph3} className="about_story_text w-full text-lg md:text-xl lg:text-2xl font-roboto">
-                I also have a growing interest in <span className="font-orisis">cyber security</span>, and I enjoy combining clean engineering with thoughtful interface experiences that feel polished and recruiter-ready.
+                Beyond internships, I serve as a <span className="font-orisis">Technical Team Lead</span> with the Data Science Student Association, supporting technical learning, peer mentoring, and collaboration.
               </p>
               <p ref={paragraph4} className="about_story_text w-full text-lg md:text-xl lg:text-2xl">
-                Let&quot;s collaborate and turn ambitious ideas into usable products.
+                I&quot;m always interested in building useful products and collaborating on thoughtful technical projects.
               </p>
               <p ref={paragraph5} className="about_story_text about_story_contact w-full text-xl md:text-2xl lg:text-3xl">
                 Reach me at: <a href="mailto:rmshelar11@gmail.com" target="_blank">rmshelar11@gmail.com</a>

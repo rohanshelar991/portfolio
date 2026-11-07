@@ -95,7 +95,7 @@ const WorkExperience = () => {
                     exit={{ opacity: 0 }}
                   >
                     <div className="timeline_node" />
-                    <div className="timeline_date">{item.date}</div>
+                    {item.date && <div className="timeline_date">{item.date}</div>}
                     <div className="p-[3%] experience_card">
                       <div className="experience_badge">
                         {item.category}
@@ -104,7 +104,19 @@ const WorkExperience = () => {
                       <h4 className="experience_subtitle mb-4 mt-2 tracking-wider text-base md:text-lg">
                         {item.subtitle}
                       </h4>
-                      <span className="experience_description tracking-wide text-base md:text-lg">{item.description}</span>
+                      {item.details ? (
+                        <ul className="experience_details tracking-wide text-sm md:text-base">
+                          {item.details.map((detail) => <li key={detail}>{detail}</li>)}
+                        </ul>
+                      ) : (
+                        <span className="experience_description tracking-wide text-base md:text-lg">{item.description}</span>
+                      )}
+                      {item.technologies && (
+                        <div className="experience_technologies">
+                          <span>Technologies</span>
+                          <p>{item.technologies.join(" · ")}</p>
+                        </div>
+                      )}
                       <div className="experience_index">0{index + 1}</div>
                     </div>
                   </motion.div>

@@ -117,7 +117,7 @@ export const NavItems = ({ items, className, onItemClick, visible, activeItem })
     <motion.div
       onMouseLeave={() => setHovered(null)}
       className={cn(
-        "absolute inset-0 hidden flex-1 flex-row items-center justify-center space-x-2 font-medium transition duration-200 lg:flex lg:space-x-2 w-full",
+        "hidden flex-1 flex-row items-center justify-center space-x-2 font-medium transition duration-200 lg:flex lg:space-x-2",
         className
       )}
     >
@@ -241,7 +241,6 @@ export const NavbarLogo = ({ visible }) => {
       <span className="navbar_brand_mark">RS</span>
       <span className="navbar_brand_copy">
         <span className="navbar_brand_text">Rohan Shelar</span>
-        <span className="navbar_brand_subtext">Creative Developer</span>
       </span>
     </Link>
   );

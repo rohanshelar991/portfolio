@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import React, { useCallback } from "react";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { LinkPreview } from "./ui/link-preview";
 import { projects } from "@/constants";
 
@@ -60,6 +60,16 @@ const MyProjects = () => {
                       <LinkPreview url={item.url} className="font-bold">
                         <FaExternalLinkAlt className="myprojects_card_icon" />
                       </LinkPreview>
+                      {item.github && (
+                        <a
+                          href={item.github}
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label={`${item.name} source code on GitHub`}
+                        >
+                          <FaGithub className="myprojects_card_icon" />
+                        </a>
+                      )}
                     </div>
                     <p>{item.description}</p>
                   </div>
