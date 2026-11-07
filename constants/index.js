@@ -144,7 +144,7 @@ export const projects = [
     outcome: "Turns natural language questions into SQL for interactive dataset exploration.",
   },
   {
-    name: "GST Billing System",
+    name: "BizBill",
     description:
       "A Flutter and Firebase billing app for small businesses with invoice generation and GST-aware totals for faster day-to-day operations.",
     tags: ["Flutter", "Firebase", "GST"],

@@ -15,7 +15,7 @@ A personal portfolio built with Next.js to present my experience, technical skil
 
 - **Collabathon** — AI-powered team formation based on students' skills and goals
 - **DataWeb LLM** — natural language dataset exploration with Groq and DuckDB
-- **GST Billing System** — Flutter and Firebase billing app
+- **BizBill** — Flutter and Firebase billing app for GST-aware invoicing
 - **AirScope Intelligence** — global air quality and weather dashboard
 
 ## Tech Stack
