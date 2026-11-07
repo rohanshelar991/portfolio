@@ -146,13 +146,13 @@ export const projects = [
   {
     name: "BizBill",
     description:
-      "A Flutter and Firebase billing app for small businesses with invoice generation and GST-aware totals for faster day-to-day operations.",
-    tags: ["Flutter", "Firebase", "GST"],
+      "A Flutter and Firebase-based app that simplifies business accounting, GST invoicing, client management, payment reminders, and financial reporting. It features secure authentication, automated GST calculations, multilingual support in 8 Indian languages, and a Groq-powered AI assistant for invoice and business-related queries.",
+    tags: ["Flutter", "Firebase", "GST", "Groq AI", "8 Languages"],
     image: "/images/projects/gst-billing.svg",
     url: "https://drive.google.com/drive/folders/1gc0LOl9m9GDus5ojK65Thjlra87r5Btw",
     category: "Mobile Utility",
     year: "2024",
-    outcome: "Focused on everyday business speed with invoice workflows and tax-aware totals.",
+    outcome: "Brings GST invoicing, client management, reminders, reporting, and AI assistance together.",
   },
   {
     name: "AirScope Intelligence",
