@@ -120,15 +120,16 @@ export const experience = [
 
 export const projects = [
   {
-    name: "Clima Now",
+    name: "Collabathon",
     description:
-      "A responsive weather app built with React and Tailwind CSS that lets users search cities and view live weather conditions with a clean, focused interface.",
-    tags: ["React", "Tailwind CSS", "OpenWeather API", "Vercel"],
+      "Collabathon is an AI-powered, skill-driven platform designed to help students form balanced and effective teams during hackathons. It solves the common problem of finding reliable teammates with complementary skills by using prompt-based AI matching instead of random or manual selection.",
+    tags: ["AI Matching", "Hackathons", "Student Teams", "Skill-Based Matching"],
     image: "/images/project1.jpg",
-    url: "https://weather-web-app-clima-now.vercel.app/",
-    category: "Frontend Product",
-    year: "2025",
-    outcome: "Fast city search, polished weather UI, and deployment-ready responsiveness.",
+    url: "https://collabthon.vercel.app",
+    github: "https://github.com/rohanshelar991/collabthon",
+    category: "AI Team Formation",
+    year: "2026",
+    outcome: "Helps students form balanced hackathon teams through AI-powered skill matching.",
   },
   {
     name: "DataWeb LLM",

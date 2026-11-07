@@ -13,7 +13,7 @@ A personal portfolio built with Next.js to present my experience, technical skil
 
 ## Featured Projects
 
-- **Clima Now** — city weather search and current conditions
+- **Collabathon** — AI-powered team formation based on students' skills and goals
 - **DataWeb LLM** — natural language dataset exploration with Groq and DuckDB
 - **GST Billing System** — Flutter and Firebase billing app
 - **AirScope Intelligence** — global air quality and weather dashboard
